@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {}
+
+.header-container {
+  height: 70px;
+  display: flex;
+  background-color: rgb(255, 229, 197);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remaining-container {
+  display: flex;
+  background-color: rgb(255, 229, 197);
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 100px;
+}
+
+.remaining-container>a {
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 100px;
+  margin-left: 50px;
+}
